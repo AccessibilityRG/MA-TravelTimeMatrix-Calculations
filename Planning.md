@@ -9,7 +9,12 @@
 
 
 ###TO DO:
-- Retreiving YKR grid + 1km buffer (Vuokko)
-- List files (.txt) for origins and destinations (with YKR ID Number) (Vuokko)
-- Setup 
+- Run-files
+-- Retreiving YKR grid + 1km buffer (Vuokko)
+-- List files (.txt) for origins and destinations (with YKR ID Number) (Vuokko)
+-- shapefiles for car runs (Vuokko)
+- CSC 
+-- Login credentials for Vuokko (DONE)
+-- Setup the whole thing :) (Henkka & Vuokko)
+
 
