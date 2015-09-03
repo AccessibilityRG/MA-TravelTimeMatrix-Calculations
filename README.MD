@@ -1,4 +1,4 @@
-# TTM calculations Workflow
+# Travel Time Matrix calculations -  Workflow
 
 
 
@@ -13,9 +13,10 @@
 - 
 
 ### 3. Post-processing of the results:
-- Parsing the Matrix
-- 
+
 
 ### Notes:
 [Planning](Planning.md)
+
+
 [Workflow](Workflow.md)
