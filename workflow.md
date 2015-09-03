@@ -10,3 +10,5 @@ VH:
 - generated 1km buffer zone around the matrix extent and selected extra grid cells for the analysis: [see image] (Figures/MatrixExtentAndExtraCells.png)
 - Merged the matrix grid cells and the extra cells (total number of grid cells=16085)
 - Generated a list of YKR ID's (for the matrix, for the extra cells, and all together)
+
+
