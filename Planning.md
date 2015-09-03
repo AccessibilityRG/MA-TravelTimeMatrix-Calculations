@@ -14,6 +14,16 @@
 - List files (.txt) for origins and destinations (with YKR ID Number) (Vuokko)
 - shapefiles for car runs (Vuokko)
 - CSC Login credentials for Vuokko (DONE)
+- Checking what's wrong with the ArcMap 10.2 tool! (Henkka / Vuokko)
 - Setup the runs :) (Henkka & Vuokko)
 
+### MISCELLANEOUS NOTES
 
+
+
+### CAR-notes
+
+- Digiroad (K-version) is there a newer version available?
+- CSC Pouta-server(s?) will be used for car travel time calculations
+- From- and to -information as shapefiles
+- Let's check what's wrong with the ArcMap 10.2 tool!
