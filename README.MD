@@ -1,8 +1,5 @@
 # TTM calculations Workflow
 
-### Notes:
-[Planning](Planning.md)
-[Workflow](Workflow.md)
 
 
 ###1. Data preparation:
@@ -11,10 +8,14 @@
 - Open streetmap
 - Run-files 
 
-### 2. Managing the runs
--
--
--
+### 2. Managing the runs:
+- 
+- 
 
-### 3. Post-processing
+### 3. Post-processing of the results:
 - Parsing the Matrix
+- 
+
+### Notes:
+[Planning](Planning.md)
+[Workflow](Workflow.md)
