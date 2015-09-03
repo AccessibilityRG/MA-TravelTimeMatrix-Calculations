@@ -28,6 +28,7 @@
 - Open streetmap - new or old?
 - Conf -file settings: Snapping distance 500m; haarukointi 10 min (12am), 
 - date: monday september xx
+- Should be done in september hopefully
 
 
 ### CAR-notes
