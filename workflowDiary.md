@@ -12,3 +12,9 @@ VH:
 - Generated a list of YKR ID's (for the matrix, for the extra cells, and all together)
 
 
+
+### 3.9.2015
+
+- Still to do with the grid: remove water areas from the buffer zone
+- create list files
+
