@@ -3,7 +3,7 @@ VH:
 - Planning session for the Travel Time Matrix runs, autumn 2015 [See the Planning document] (Planning.md)
 
 
-- Downloaded Digiroad 2015 (K) for 01_Uusimaa_1 , 01_Uusimaa_2 and 20_ita-Uusimaa
+- Downloaded Digiroad 2015 (K) for 01_Uusimaa_1 , 01_Uusimaa_2 and 20_ita-Uusimaa from Paituli
 
 
 - Extracted Matix grid cells from the whole YKR grid (T11_gre_e_250m that was found under Aineistot\YKR\ETRS_TM35FIN_koordinaatisto\Ruudut\250m) --> 2014 version??? Should be the same as always..
