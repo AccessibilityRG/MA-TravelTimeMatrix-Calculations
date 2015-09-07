@@ -2,6 +2,13 @@ import geopandas as gdp
 import fiona
 from fiona.crs import from_epsg #currently useless!
 
+# Generate coordinate lists from input shapefile (YKR GRID CELLS)
+#   1. read shapefile
+#   2. extract specified fields (ID; X; Y)
+#   3. Rename columns
+#   4. Save list file (.txt) sep=";"
+#   5. Save shapefile [Under construction]
+
 # Code was inspired by:
 # http://gis.stackexchange.com/questions/129414/only-read-specific-attribute-columns-of-a-shapefile-with-geopandas-fiona
 
