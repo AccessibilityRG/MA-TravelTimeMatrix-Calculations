@@ -15,6 +15,13 @@ VH:
 
 ### 3.9.2015
 
-- Still to do with the grid: remove water areas from the buffer zone
+Still to do with the grid: 
+-remove water areas from the buffer zone
 - create list files
 
+### 7.9.2015
+
+- Created the final buffer zone (1414 extra grids): Excluded buffer cells that overlap with water areas.
+- See final extent for the analysis grid [Matrix + Buffer zone] (Figures/MatrixExtentAndExtraCells_SeaExcluded.png)
+- Genetarting list files with the fields YKR_ID; X; Y. 
+- CRS of the original data is EPSG:3067 (ETRS-TM35FIN coordinates)

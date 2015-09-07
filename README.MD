@@ -3,7 +3,7 @@
 
 
 ###1. Data preparation:
-- YKR grid 
+- [YKR grid] (YKRgrid.MD)
 - Digiroad (K)
 - Open streetmap
 - Run-files 
