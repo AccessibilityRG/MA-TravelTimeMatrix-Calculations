@@ -21,25 +21,36 @@ def getRecords(filename,col1, col2, col3):
         new = {}
         new['geometry'] = feature['geometry']  # not necessary for the coordinate list
         new['properties'] = {}
-        new['properties']['ID_orig'] = feature['properties'][col1]
-        new['properties']['X_orig'] = feature['properties'][col2]
-        new['properties']['Y_orig'] = feature['properties'][col3]
+        new['properties']['ID'] = feature['properties'][col1]
+        new['properties']['X'] = feature['properties'][col2]
+        new['properties']['Y'] = feature['properties'][col3]
         
         yield new
 
 # Execute method for input shapefile
-GridCells = gdp.GeoDataFrame.from_features(getRecords(inputFile, "ID", "x", "y"))
+
+OrigPoints = gdp.GeoDataFrame.from_features(getRecords(inputFile, "ID", "x", "y"))
+OrigPoints = OrigPoints.rename(columns={'ID': 'ID_orig', 'X': 'X_orig', 'Y':'Y_orig'})
+
+DestPoints = gdp.GeoDataFrame.from_features(getRecords(inputFile, "ID", "x", "y"))
+DestPoints = DestPoints.rename(columns={'ID': 'ID_dest', 'X': 'X_dest', 'Y':'Y_dest'})
 
 #----------------------------------------------------------------------------
 # Generate coordinate list (and shapefile)
 #-----------------------------------------------------------------------------
+
 #Write output text file:
-outTxt =r"C:\HY-Data\VUOKKHEI\documents\MetropAccess\Matriisiajot\origPoints.txt"
+outTxt =r"C:\HY-Data\VUOKKHEI\documents\MetropAccess\Matriisiajot\OrigDestPoints\origPoints.txt"
 header = ['ID_orig', 'X_orig', 'Y_orig']
-GridCells.to_csv(outTxt, sep=";", index=False, columns=header)
+OrigPoints.to_csv(outTxt, sep=";", index=False, columns=header)
+
+#Write output text file:
+outTxt =r"C:\HY-Data\VUOKKHEI\documents\MetropAccess\Matriisiajot\OrigDestPoints\destPoints.txt"
+header = ['ID_dest', 'X_dest', 'Y_dest']
+DestPoints.to_csv(outTxt, sep=";", index=False, columns=header)
 
 ### Optional: Write output shapefile:
-##outShp =r"C:\HY-Data\VUOKKHEI\documents\MetropAccess\Matriisiajot\origPoints.shp"
+##outShp =r"C:\HY-Data\VUOKKHEI\documents\MetropAccess\Matriisiajot\OrigDestPoints\origPoints.shp"
 ##GridCells.to_file(outShp)
 
 
