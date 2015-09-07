@@ -20,4 +20,4 @@
 [Planning](Planning.md)
 
 
-[Diary](WorkflowDiary.md)
+[Diary](workflowDiary.md)
