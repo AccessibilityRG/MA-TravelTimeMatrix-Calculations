@@ -27,3 +27,5 @@ Still to do with the grid:
 - See final extent for the analysis grid [Matrix + Buffer zone] (Figures/MatrixExtentAndExtraCells_SeaExcluded.png)
 - Genetarting list files with the fields YKR_ID; X; Y. [See code] (Codes/CreateCoordListFromYKRshp.py)
 - CRS of the original data is EPSG:3067 (ETRS-TM35FIN coordinates)
+- Worked with the code that generates batch files [see code] (Codes/Take_subsets_from_coordList_and_Create_batch_file.py)
+- The batch file generator code requires still some adjustments!
