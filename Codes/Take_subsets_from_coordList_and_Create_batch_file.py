@@ -12,7 +12,7 @@ origins = r"C:\HY-Data\VUOKKHEI\documents\MetropAccess\Matriisiajot\OrigDestPoin
 data = pd.read_csv(origins, sep=';')
 
 #Set output folder and base for output filename for point list:
-outFolder = r"C:\HY-Data\VUOKKHEI\documents\MetropAccess\Matriisiajot\RunFiles" 
+outFolder = r"C:\HY-Data\VUOKKHEI\documents\MetropAccess\Matriisiajot\MetropAccess-Reititin_1.2\MetropAccess-Reititin_1.2\MetropAccess-Reititin\bin\OrigDestPoints"
 filename = "_TravelTimeMatrix2015_OriginPoints_ETRSTM35FIN.txt"
 
 #Kalkati path:
@@ -51,7 +51,7 @@ for block in range(iterations):
 
 file_paths = []
 cmd_file = "run_batch_TravelTimeMatrix_%s.txt" %version
-batch_folder = outFolder + "\\" + "Batch" 
+batch_folder = r"C:\HY-Data\VUOKKHEI\documents\MetropAccess\Matriisiajot\MetropAccess-Reititin_1.2\MetropAccess-Reititin_1.2\MetropAccess-Reititin\bin\BatchFiles"
 f = open(os.path.join(batch_folder, cmd_file), 'w')
 
 command1 = "route.bat"
@@ -78,10 +78,12 @@ f.close()
 
 allCommands=open(os.path.join(batch_folder, cmd_file), 'r')
 
+batch_file = "run_batch_TravelTimeMatrix_%s.bat" %version
+
 batch = allCommands.readlines()
 
 # Determine block size
-block_size = 4
+block_size = 2
 row_count = float(len(batch))
 iterations = int(row_count / block_size + 1)
 
@@ -97,7 +99,7 @@ for block in range(iterations):
     syntax = "".join(block_data)
     syntax = syntax.replace("\n", "&&") # If we wish to separate the commands with "&&" in stead of "\n"
 
-    outName = os.path.join(batch_folder, "%s%s%s" % (name_idx,"_", cmd_file))
+    outName = os.path.join(batch_folder, "%s%s%s" % (name_idx,"_", batch_file))
     f=open(outName, "w")
     f.write(syntax)
     f.close
