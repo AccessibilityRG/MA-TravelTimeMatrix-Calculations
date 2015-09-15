@@ -40,7 +40,7 @@ for block in range(iterations):
     except:
         block_data = data[i:]
 
-    outName = os.path.join(outFolder, "%03d%s" % (name_idx, filename))
+    outName = os.path.join(outFolder, "%03d%s" % (name_idx, filename))    # note! The "%03d" % (name_idx)  -combination generates 3-gidit running numbers
     block_data.to_csv(outName, sep=';', index=False)
     i+=block_size
     name_idx+=1
@@ -56,7 +56,7 @@ f = open(os.path.join(batch_folder, cmd_file), 'w')
 
 command1 = "route.bat"
 command2 = "OrigDestPoints\destPoints.txt "
-#command3 = "--base-path=%s" % kalkati_folder
+#commandx = "--base-path=%s" % kalkati_folder
 out_command = ""
 i = 1
 
@@ -100,7 +100,7 @@ for block in range(iterations):
     syntax = "".join(block_data)
     syntax = syntax.replace("\n", "&&") # If we wish to separate the commands with "&&" in stead of "\n"
 
-    outName = os.path.join(batch_folder, "%03d%s%s" % (name_idx,"_", batch_file))
+    outName = os.path.join(batch_folder, "%03d%s%s" % (name_idx,"_", batch_file))   # note! The "%03d" % (name_idx)  -combination generates 3-gidit running numbers
     f=open(outName, "w")
     f.write(syntax)
     f.close

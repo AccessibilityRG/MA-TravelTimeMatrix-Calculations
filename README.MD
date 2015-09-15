@@ -3,7 +3,7 @@
 
 
 ###[1. Data preparation:] (DataPreparation.MD)
-- YKR grid
+- origins and destinations (YKR grid cells)
 - Digiroad (K)
 - Open streetmap
 - Run-files 
@@ -13,6 +13,9 @@
 - 
 
 ### 3. Post-processing of the results:
+-
+-
+-
 
 
 

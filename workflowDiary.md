@@ -39,6 +39,10 @@ Still to do with the grid:
 
 
 ### 15.9.2015
+
+
 - Fixed the [Batchfilemaker-Code] so that each file begins with a 3-digit running number (Codes/Take_subsets_from_coordList_and_Create_batch_file.py)
--
+- Parsing the orig/dest points for car runs (shapefile into blocks) (modified existing python + arcpy code).
+
+
 
