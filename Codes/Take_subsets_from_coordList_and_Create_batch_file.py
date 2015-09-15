@@ -16,7 +16,7 @@ outFolder = r"C:\HY-Data\VUOKKHEI\documents\MetropAccess\Matriisiajot\MetropAcce
 filename = "_TravelTimeMatrix2015_OriginPoints_ETRSTM35FIN.txt"
 
 #Kalkati path:
-kalkati_folder = r"C:\HY-Data\VUOKKHEI\documents\MetropAccess\Reititin\Kalkatijemma\kalkati-2015-07-23"
+#kalkati_folder = r"C:\HY-Data\VUOKKHEI\documents\MetropAccess\Reititin\Kalkatijemma\kalkati-2015-07-23"
 
 #Output folder name for the Reititin-runs (the folder name is concatenated within the batch files).
 result_folder = "TravelTimeMatrix%s_results" %version
@@ -40,7 +40,7 @@ for block in range(iterations):
     except:
         block_data = data[i:]
 
-    outName = os.path.join(outFolder, "%s%s" % (name_idx, filename))
+    outName = os.path.join(outFolder, "%03d%s" % (name_idx, filename))
     block_data.to_csv(outName, sep=';', index=False)
     i+=block_size
     name_idx+=1
@@ -55,7 +55,8 @@ batch_folder = r"C:\HY-Data\VUOKKHEI\documents\MetropAccess\Matriisiajot\MetropA
 f = open(os.path.join(batch_folder, cmd_file), 'w')
 
 command1 = "route.bat"
-command2 = "OrigDestPoints\destPoints.txt --base-path=%s" % kalkati_folder
+command2 = "OrigDestPoints\destPoints.txt "
+#command3 = "--base-path=%s" % kalkati_folder
 out_command = ""
 i = 1
 
@@ -99,7 +100,7 @@ for block in range(iterations):
     syntax = "".join(block_data)
     syntax = syntax.replace("\n", "&&") # If we wish to separate the commands with "&&" in stead of "\n"
 
-    outName = os.path.join(batch_folder, "%s%s%s" % (name_idx,"_", batch_file))
+    outName = os.path.join(batch_folder, "%03d%s%s" % (name_idx,"_", batch_file))
     f=open(outName, "w")
     f.write(syntax)
     f.close

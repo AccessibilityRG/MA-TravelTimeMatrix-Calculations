@@ -29,3 +29,16 @@ Still to do with the grid:
 - CRS of the original data is EPSG:3067 (ETRS-TM35FIN coordinates)
 - Worked with the code that generates batch files [see code] (Codes/Take_subsets_from_coordList_and_Create_batch_file.py)
 - The batch file generator code requires still some adjustments!
+
+
+
+### 11.9.2015
+
+- Quick check with Henkka & Vuokko on the status
+- Note: no need for basepath-command in the syntax, the correct kalkati will be used as the default.
+
+
+### 15.9.2015
+- Fixed the [Batchfilemaker-Code] so that each file begins with a 3-digit running number (Codes/Take_subsets_from_coordList_and_Create_batch_file.py)
+-
+

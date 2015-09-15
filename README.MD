@@ -2,8 +2,8 @@
 
 
 
-###1. Data preparation:
-- [YKR grid] (YKRgrid.MD)
+###[1. Data preparation:] (DataPreparation.MD)
+- YKR grid
 - Digiroad (K)
 - Open streetmap
 - Run-files 
