@@ -10,16 +10,17 @@
 
 ###TO DO:
 
-- Retreiving YKR grid + 1km buffer (Vuokko)
-- List files (.txt) for origins and destinations (with YKR ID Number) (Vuokko)
+- Retreiving YKR grid + 1km buffer (Vuokko)  DONE
+- List files (.txt) for origins and destinations (with YKR ID Number) (Vuokko) DONE
 - Fix open streetmap (if impossible, then let's use the old one) (Henkka)
-- shapefiles for car runs (compile & parse) (Vuokko)
+- shapefiles for car runs (compile & parse) (Vuokko)  DONE
 - CSC Login credentials for Vuokko (DONE)
 - Checking what's wrong with the ArcMap 10.2 tool! (Henkka / Vuokko)
 - Prepare digiroad data for travel time runs ("Buildaus")
  (Henkka)
-- Setup the runs :) (Henkka & Vuokko)
-- Documentation to github!
+- Setup the runs :) (Henkka & Vuokko) in progress...
+- Documentation to github! in progress...
+
 
 ### Public Transportation -notes
 
@@ -27,7 +28,7 @@
 - CSC Taito
 - Open streetmap - new or old?
 - Conf -file settings: Snapping distance 500m; haarukointi 10 min (12am), 
-- date: monday september xx
+- date: monday september xx, always first monday in September
 - Should be done in september hopefully
 
 
