@@ -17,9 +17,6 @@ import sys, os, math
 #                                               Documetation: Translated comments from Finnish to English. Refactored variables into English.
 
 
-
-
-
 def ExDel(file): #overwrite-method
     if arcpy.Exists(file):
         arcpy.Delete_management(file)
@@ -81,10 +78,10 @@ for row in range(Blocks):
             for rec in db:
                 text += "%s;%s;%s\n" % (rec['id'], rec['resolved_x'], rec['resolved_y'])
 
-            #Kirjoitetaan string tekstifileeseen
+            #Write the string variable into the text file
             wf.write(text)
 
-            #Suljetaan tiedostot
+            #Closing the files
             db.close()
             wf.close()
     except:
@@ -92,8 +89,8 @@ for row in range(Blocks):
         pass
         
     
-    text="Lohko " + str(i) + " valmis"
-    msg(text) #Message is printed after each block has been written into file(s).
+    text="Block " + str(i) + " finished"
+    msg(text) #Message is printed after each block is finished.
     i += 1
     i3digit = "%03d" %i #3-digit number
     FileName = OutputFolder + "\\" + i3digit + "_" + os.path.basename(Data)[:-4]  + "_BlockSize" + str(BlockSize) + ".shp"
