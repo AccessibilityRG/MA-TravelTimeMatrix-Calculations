@@ -40,10 +40,10 @@ Still to do with the grid:
 
 ### 15.9.2015
 
-
 - Fixed the [Batchfilemaker-Code] so that each file begins with a 3-digit running number (Codes/Take_subsets_from_coordList_and_Create_batch_file.py)
 - Parsing the orig/dest points for car runs (shapefile into blocks) modified [existing python + arcpy code](Codes/Arcpy_SplitShapeFile.py)
-- With current settings (BlockSize=120) there are 123 output shapefiles, last of them has only 5 records (edge of the buffer).
+- With current settings, BlockSize=120 there are 123 output shapefiles, last of them has only 5 records (edge of the buffer).
+
 
 
 ### 16.9.2015
