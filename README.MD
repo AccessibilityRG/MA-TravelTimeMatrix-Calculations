@@ -13,10 +13,12 @@
 - Testing input data and settings
 - Running the calculations using CSC resources
 
-### 3. Post-processing of the results:
-- 
-- Parsing the results 
--
+### 3. Post-processing of the results
+
+
+
+
+
 
 
 
