@@ -20,6 +20,7 @@
  (Henkka)
 - Setup the runs :) (Henkka & Vuokko) in progress...
 - Documentation to github! in progress...
+- CO2 results?
 
 
 ### Public Transportation -notes
@@ -39,3 +40,10 @@
 - From- and to -information as shapefiles 
 - parse shapefiles into blocks 
 - Let's check what's wrong with the ArcMap 10.2 tool!
+
+
+## CSC notes
+
+- Linux environment: .sh files (run files for public transportation)
+- Files are structured under $WRKDIR
+- Structure?? For example folders Origins; Destinations; BatchFiles; Results; under th WRKDIR-folder...? 

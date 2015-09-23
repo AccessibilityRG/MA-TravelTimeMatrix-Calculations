@@ -43,6 +43,41 @@ Still to do with the grid:
 
 - Fixed the [Batchfilemaker-Code] so that each file begins with a 3-digit running number (Codes/Take_subsets_from_coordList_and_Create_batch_file.py)
 - Parsing the orig/dest points for car runs (shapefile into blocks) modified [existing python + arcpy code](Codes/Arcpy_SplitShapeFile.py)
+- With current settings (BlockSize=120) there are 123 output shapefiles, last of them has only 5 records (edge of the buffer).
+- 
+
+
+### 16.9.2015
+
+- Checking the files
+- Henkka updated the Kalkati distribution http://www.helsinki.fi/science/accessibility/data/Kalkati-data/
+
+
+### 22.9.
+- Henkka has been testint the runs on taito
+- still reconsidering to change the kalkati new ones available for the gorup: P:\h510\metropaccess\Aineistot\Kalkati-data\Kalkati-Buildatut
 
 
 
+### 23.9.
+
+-Testing the routing results. 
+- Fixed squares around Kivistö and Vehkala train stations
+- Modified enter mode cost so that the process favors trains over buses
+
+        // Cost of entering different modes of transit, in minutes.
+        enterModeCost:  {
+                                1:      3,
+                                6:      1,
+                                12:     3,
+                                dummy:0
+                        }, 
+                        
+                        
+####tests and fixes for the reititin - runs
+1. Test runs were made for a subset of origins and destinations. 
+2. Coparison of new results against Travel Time Matrix 2013 --> big differences?
+3. Further inspection was done for areas where there is a transition from but to train on the ring rail (Travel times in seutula were significantly slower than before)
+4. Added Squares around railway stations along the ring rail line, using http://boundingbox.klokantech.com/ -tool.
+Fix 1: Checked Reititin settings for transport mode prioritization: how different modes of transport are prioritized? --> prioritzing train over bus resulted in more realistic routes and travel times.
+Fix 2: Adding the Squares to the area list in task.js -file resulted in more realistic routes

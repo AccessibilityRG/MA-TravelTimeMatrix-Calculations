@@ -6,15 +6,16 @@
 - origins and destinations (YKR grid cells)
 - Digiroad (K)
 - Open streetmap
-- Run-files 
 
-### 2. Managing the runs:
-- 
-- 
+
+### 2. Running the calculations
+- Settings for the Reititin-tool
+- Testing input data and settings
+- Running the calculations using CSC resources
 
 ### 3. Post-processing of the results:
--
--
+- 
+- Parsing the results 
 -
 
 

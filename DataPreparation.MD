@@ -8,11 +8,12 @@
 4. Parsed the origin points into blocks, this step is embedded in the [code for generating batch-files] (Codes/Take_subsets_from_coordList_and_Create_batch_file.py)
 
 
-
 ### Run files for Reititin
 
 1. [code for generating batch-files] (Codes/Take_subsets_from_coordList_and_Create_batch_file.py)
 2. Conf-settings:
+
+
 
 
 # DATA PREPARATION - Car
