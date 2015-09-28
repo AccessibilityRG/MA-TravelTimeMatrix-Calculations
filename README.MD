@@ -1,15 +1,12 @@
 # Travel Time Matrix calculations -  Workflow
 
-
-
 ###[1. Data preparation:] (DataPreparation.MD)
 - origins and destinations (YKR grid cells)
 - Digiroad (K)
-- Open streetmap
-
+- Open Street Map
 
 ### 2. Running the calculations
-- Settings for the Reititin-tool
+- Settings for the MetropAccess-Reititin tool
 - Testing input data and settings
 - Running the calculations using CSC resources
 
