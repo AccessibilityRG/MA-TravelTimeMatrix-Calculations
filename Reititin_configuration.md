@@ -13,12 +13,12 @@ Walking speed is set to 70 meters per minute (4.2 km/h).
 
 - Midday (12:00-13:00):
 
-    [Public Transportation](Configuration/confMassaAjo2015_PT.json)
-    [Walk](Configuration/confMassaAjo2015_Walk.json)
+    - [Public Transportation](Configuration/confMassaAjo2015_PT.json)
+    - [Walk](Configuration/confMassaAjo2015_Walk.json)
 
 - Rush hour (09:00-10:00):
 
-    [Public Transportation]()
-    [Walk]()
+    - [Public Transportation]()
+    - [Walk]()
 
 
