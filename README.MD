@@ -6,7 +6,7 @@
 - Open Street Map
 
 ### 2. Running the calculations
-- Settings for the MetropAccess-Reititin tool
+- [Settings](Reititin_configuration.md) for the MetropAccess-Reititin tool
 - Testing input data and settings
 - Running the calculations using CSC resources
 
