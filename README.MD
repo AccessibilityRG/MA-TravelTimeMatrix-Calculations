@@ -5,7 +5,7 @@
 - PUBLIC TRANSPORT: Origins, destinations, Open Street Map, [squares for train stations] (KehRataAukiot.md)
 - CAR: Origins, destinations, [network dataset] (Figures/Digiroad.png)
 
-### 2. Setting up CSC computing resources 
+### 2. CSC computing resources
 
 - TAITO for Public transportation runs
 - POUTA for car runs
