@@ -1,20 +1,27 @@
 # Travel Time Matrix calculations -  Workflow
 
 ###[1. Data preparation:] (DataPreparation.MD)
-- origins and destinations (YKR grid cells)
-- Digiroad (K)
-- Open Street Map
+- MATRIX CELLS: Travel time matrix extent and a buffer zone
+- PUBLIC TRANSPORT: Origins, destinations, Open Street Map, squares
+- CAR: Origins, destinations, network dataset
 
-### 2. Running the calculations
+### 2. Setting up CSC computing resources 
+
+- TAITO for Public transportation runs
+- POUTA for car runs
+
+### 3. Running the calculations
+
+PUBLIC TRANSPORTATION
 - [Settings](Reititin_configuration.md) for the MetropAccess-Reititin tool
-- Testing input data and settings
-- Running the calculations using CSC resources
+
+CAR
+- Using a modified version of the MetropAccess-Digiroad-Toolbox_ArcGIS10.2
+
 
 ### 3. Post-processing of the results
 
-
-
-
+-parsing the results
 
 
 
