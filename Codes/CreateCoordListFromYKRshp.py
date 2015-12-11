@@ -12,8 +12,7 @@ from fiona.crs import from_epsg #currently useless!
 # Code was inspired by:
 # http://gis.stackexchange.com/questions/129414/only-read-specific-attribute-columns-of-a-shapefile-with-geopandas-fiona
 
-inputFile = "C:\HY-Data\VUOKKHEI\documents\MetropAccess\Matriisiajot\Matrix_13231cells_Buffer_1414cells.shp"
-#MatrixShp = gdp.read_file(inputFile)
+inputFile = "...\Matrix_13231cells_Buffer_1414cells.shp"
 
 #---------------------------------------------------------------------------
 # Extract fields (ID, x, y) from YKR grid shapefile

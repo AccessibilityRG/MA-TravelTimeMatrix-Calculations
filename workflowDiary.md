@@ -75,8 +75,23 @@ Still to do with the grid:
                         
 ####tests and fixes for the reititin - runs
 1. Test runs were made for a subset of origins and destinations. 
-2. Coparison of new results against Travel Time Matrix 2013 --> big differences?
+2. Comparison of new results against Travel Time Matrix 2013 --> big differences?
 3. Further inspection was done for areas where there is a transition from but to train on the ring rail (Travel times in seutula were significantly slower than before)
 4. Added Squares around railway stations along the ring rail line, using http://boundingbox.klokantech.com/ -tool.
 Fix 1: Checked Reititin settings for transport mode prioritization: how different modes of transport are prioritized? --> prioritzing train over bus resulted in more realistic routes and travel times.
 Fix 2: Adding the Squares to the area list in task.js -file resulted in more realistic routes
+
+
+### 26.10.
+
+- Installed ArcGIS 10.1 on CSC Pouta (required .NET Framework 3.5 feature to be installed on the server)
+
+
+
+### 27.10.
+
+- ArcGIS lisence on pouta
+- Tested the DigiroadTool
+- 
+
+7.12

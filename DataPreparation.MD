@@ -19,6 +19,7 @@
 - origins and destinations were saved as shapefiles, (293 subsets for origin points, destination points as one shapefile)
 - Digiroad (K): the road network was combined from three different parts (01_Uusimaa_1 , 01_Uusimaa_2, 20_ita-Uusimaa) 
 - The Digiroad data was clipped around the analysis extent: [Digiroad 2015] (Figures/Digiroad.png)
+- Preparation of the network dataset with MetropAccess-Digiroad_ArcGIS_10.1. - step 3 (Vaihe3_AikasakkojenLaskenta.py)
 
 
 

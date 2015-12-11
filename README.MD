@@ -20,7 +20,4 @@
 - combining the results
 
 
-#Notes:
 
-[Planning](Planning.md)
-[Diary](workflowDiary.md)
