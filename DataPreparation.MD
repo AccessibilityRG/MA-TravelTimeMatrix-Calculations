@@ -1,27 +1,15 @@
-# DATA PREPARATION - Public Transportation
+# DATA PREPARATION 
 
-### Origins and destinations for Reititin (public transportation)
+### MATRIX CELLS AND BUFFER ZONE:
+- 13231 grid cells with YKR-ID, x-coordinate and y-coordinate [Matrix + Buffer zone] (Figures/MatrixExtentAndExtraCells_SeaExcluded.png)
+- Additional 1 km buffer was used in the runs, the extra cells have removed from the outputs 
 
-1. Selected grid cells that cover the matrix extent
-2. Generated a 1 km buffer zone around the matrix extent (excluding water areas) [see image: Matrix + Buffer zone] (Figures/MatrixExtentAndExtraCells_SeaExcluded.png)
-3. Generated coordinate list for all analysis points [code for generating coordinate lists from YKR grid shapefile] (Codes/CreateCoordListFromYKRshp.py)
-4. Parsed the origin points into blocks, this step is embedded in the [code for generating batch-files] (Codes/Take_subsets_from_coordList_and_Create_batch_file.py)
+### PUBLIC TRANSPORT: Origins, destinations, Open Street Map, squares
+- origin and destination points listed as text files (293 subsets for origin points, destination points as one list) 
+- Open streetmap -data in a reititin-compatibe format
+- Squares were added around new train stations around the ring rail line: [bounding box definitions] (KehRataAukiot.md)
 
-
-### Run files for Reititin
-
-1. [code for generating batch-files] (Codes/Take_subsets_from_coordList_and_Create_batch_file.py)
-2. Conf-settings:
-
-
-
-
-# DATA PREPARATION - Car
-
-### Origins and destinations for MetropAccess Digiroad Tool (car travel times)
-
-1. Created a point shapefile from the Travel Time Matrix analysis grid cells, same locations as with public transportation runs. [see image: Matrix + Buffer zone] (Figures/MatrixExtentAndExtraCells_SeaExcluded.png)
-2. Split the point shapefile into blocks. [Code for splitting the shapefile] (Codes/Arcpy_SplitShapeFile.py)
-
-
+### CAR: Origins, destinations, network dataset (Digiroad)
+- origins and destinations (YKR grid cells)as shapefiles, (293 subsets for origin points, destination points as one shapefile)
+- Digiroad (K): the road network was combined from three different parts (01_Uusimaa_1 , 01_Uusimaa_2, 20_ita-Uusimaa and clipped around the analysis extent: [Digiroad 2015] (Figures/Digiroad.png)
 
