@@ -7,7 +7,6 @@
 - Additional 1 km buffer around the matrix extent was used in the runs. The extra cells have been removed from the outputs. 
 - [Figure: Matrix + Buffer zone] (Figures/MatrixExtentAndExtraCells_SeaExcluded.png)
 
-
 #### PUBLIC TRANSPORT (PT): 
 ###### ORIGINS AND DESTINATIONS
 - Retrieved origin and destination points from the YKR grid data for the matrix extent
