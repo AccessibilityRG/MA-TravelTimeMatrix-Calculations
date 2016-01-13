@@ -9,14 +9,14 @@
 
 #### PUBLIC TRANSPORT (PT): 
 ###### ORIGINS AND DESTINATIONS
-- Retrieved origin and destination points from the YKR grid data for the matrix extent
+- Retrieved origin and destination points (id, x, y) from the YKR grid data for the matrix extent 
 - Outputs were stored as text files
 - 293 subsets for origin points, destination points as one list
 
 ###### SCHEDULES
 - Public transport schedules were downloaded from Helsinki Region transport (Helsingin Seudun Liikenne HSL): [Kalkati.net, XML database dump](http://developer.reittiopas.fi/pages/fi/kalkati.net-xml-database-dump.php?lang=FI) 
 - Schedules for Monday 07.09.2015 that can be found in the Kalkati dataset between the dates 2015-08-19 and 2015-09-18 were used in the calculations
-- The Kalkati data was processed ("builded") into a Reititin-compatible format
+- The Kalkati data was processed ("builded") into a Reititin-compatible format. See more details in the [Reititin manual, chapter 5.2] (http://www.helsinki.fi/science/accessibility/tools/MetropAccess-Reititin/MetropAccess-Reititin_KayttoOhje.pdf)
 - Processed file can be downloaded from [this folder](http://www.helsinki.fi/science/accessibility/data/Kalkati-data/).
 - Direct download link: [kalkati_2015-08-19_2015-09-18.tar.gz]	(www.helsinki.fi/science/accessibility/data/Kalkati-data/kalkati_2015-08-19_2015-09-18.tar.gz)
  
@@ -26,8 +26,8 @@
 
 #### CAR: 
 ###### ORIGINS AND DESTINATIONS
-- origins and destinations were saved as shapefiles
-- 293 subsets for origin points, destination points as one shapefile
+- Origin and destination points were saved as shapefiles
+- 293 shapefiles for origin points, destination points as one shapefile
 
 ###### ROAD NETWORK
 - Digiroad 2015 (K) for 01_Uusimaa_1 , 01_Uusimaa_2 and 20_ita-Uusimaa were downloaded from [Paituli] (https://research.csc.fi/paituli)
