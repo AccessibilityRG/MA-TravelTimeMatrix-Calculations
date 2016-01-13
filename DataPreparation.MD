@@ -15,7 +15,7 @@
 
 ###### SCHEDULES
 - Public transport schedules were downloaded from Helsinki Region transport (Helsingin Seudun Liikenne HSL): [Kalkati.net, XML database dump](http://developer.reittiopas.fi/pages/fi/kalkati.net-xml-database-dump.php?lang=FI) 
-- Schedules for Monday 07.09.2015 that can be found in the Kalkati dataset between the dates 2015-08-19 and 2015-09-18 were used in the calculations
+- Schedules for Monday 07.09.2015 found in the Kalkati dataset between the dates 2015-08-19 and 2015-09-18 were used in the calculations
 - The Kalkati data was processed ("builded") into a Reititin-compatible format. See more details in the [Reititin manual, chapter 5.2] (http://www.helsinki.fi/science/accessibility/tools/MetropAccess-Reititin/MetropAccess-Reititin_KayttoOhje.pdf)
 - Processed file can be downloaded from [this folder](http://www.helsinki.fi/science/accessibility/data/Kalkati-data/).
 - Direct download link: [kalkati_2015-08-19_2015-09-18.tar.gz]	(www.helsinki.fi/science/accessibility/data/Kalkati-data/kalkati_2015-08-19_2015-09-18.tar.gz)
