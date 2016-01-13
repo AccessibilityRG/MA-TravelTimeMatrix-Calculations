@@ -2,7 +2,7 @@
 
 ###[1. Data preparation:] (DataPreparation.MD)
 - MATRIX GRID CELLS: [Matrix + Buffer zone] (Figures/MatrixExtentAndExtraCells_SeaExcluded.png)
-- PUBLIC TRANSPORT: Origins, destinations,Schedules (Kalkati), Open Street Map, [squares for train stations] (KehRataAukiot.md)
+- PUBLIC TRANSPORT: Origins, destinations, schedules (Kalkati), Open Street Map -data, [squares for train stations] (KehRataAukiot.md)
 - CAR: Origins, destinations, [network dataset] (Figures/Digiroad.png)
 
 ### 2. CSC computing resources
