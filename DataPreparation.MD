@@ -5,7 +5,7 @@
 - All grid cells have the following information content: YKR-ID, x-coordinate and y-coordinate 
 - CRS of the original data is EPSG:3067 (ETRS-TM35FIN coordinates)
 - Additional 1 km buffer was used in the runs, the extra cells have removed from the outputs 
-- See extent in the figure [Matrix + Buffer zone] (Figures/MatrixExtentAndExtraCells_SeaExcluded.png)
+- [Figure: Matrix + Buffer zone] (Figures/MatrixExtentAndExtraCells_SeaExcluded.png)
 
 
 #### PUBLIC TRANSPORT (PT): 
@@ -26,7 +26,7 @@
 #### CAR: 
 #######ROAD NETWORK
 - Digiroad (K): the road network was combined from three different parts (01_Uusimaa_1 , 01_Uusimaa_2, 20_ita-Uusimaa) 
-- The Digiroad data was clipped around the analysis extent: [Digiroad 2015] (Figures/Digiroad.png)
+- The Digiroad data was clipped around the analysis extent. [Figure: Digiroad 2015 extent for the analysis] (Figures/Digiroad.png)
 - Preparation of the network dataset with MetropAccess-Digiroad_ArcGIS_10.1. - step 3 (Vaihe3_AikasakkojenLaskenta.py)
 #######CAR ORIGINS AND DESTINATIONS
 - origins and destinations were saved as shapefiles, (293 subsets for origin points, destination points as one shapefile)
